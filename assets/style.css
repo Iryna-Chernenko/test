@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.body-backround {
+  height: 100vh;
+  width: 100vw;
+  background-color: #050505;
+  background-image: url(img/1618325393_2-phonoteka_org-p-krasivii-temnii-fon-dlya-fotoshopa-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.body-table {
+  height: 100vh;
+  width: 100vw;
+  background-color: #e6dcdc;
+  background-image: url(img/1641988956_1-damion-club-p-svetlo-serii-fon-dlya-prezentatsii-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text {
+  display: block;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #585f5c;
+}
+
+.header-text-all {
+  gap: 10px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.contant {
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+
+.contant-head {
+  text-decoration: none;
+  color: #42eea6;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contant-head-all {
+  margin-bottom: 20px
+}
+
+.contant-head:hover {
+  color: aquamarine;
+}
+
+.w-75 {
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+  border-collapse: collapse;
+  }
+
+.td {
+  border: 1px solid;
+  width: 33.33%;
+  height: 50px;
+}
+
+.td2 {
+  border: 1px solid;
+  height: 200px;
+}
+
+.caption {
+  font-weight: 700;
+  font-size: 15px;
+}
+.w-90 {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+.td3 {
+  border: 1px solid;
+  height: 50px;
+  width: 40%;
+}
+
+.td4 {
+  border: 1px solid;
+  width: 60%;
+  height: 50px;
+}
+
+.td5 {
+  border: 1px solid;
+  width: 28%;
+  height: 50px;
+}
+
+.w-80 {
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+.td-child1 {
+  width: 33.33%;
+  height: 50px;
+  border: 1px solid;
+}
+
+.td-child2 {
+  height: 200px;
+  border: 1px solid;
+}
+
